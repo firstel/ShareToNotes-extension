@@ -16,6 +16,8 @@ git clone https://github.com/mosugi/ShareToNotes-extension.git && ./ShareToNotes
 ## Manually
 
 ```
+#fix xcode
+sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
 # Install mshare
 git clone https://github.com/mosugi/mshare.git && cd mshare && make install
 # Install mshare chrome extension native manifest
